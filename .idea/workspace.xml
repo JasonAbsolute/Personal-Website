@@ -29,9 +29,11 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\src\imgs" />
       <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\build" />
       <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\build\static" />
     </key>
@@ -80,7 +82,7 @@
       <workItem from="1570081192495" duration="2603000" />
       <workItem from="1570141739044" duration="847000" />
       <workItem from="1570142750054" duration="1477000" />
-      <workItem from="1570154720777" duration="6256000" />
+      <workItem from="1570154720777" duration="7534000" />
     </task>
     <servers />
   </component>

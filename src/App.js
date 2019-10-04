@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import luigi from './imgs/luigi.png'
 import toyLuigi from './imgs/toyLuigi.png'
+import luigiGif from './imgs/TerrificOrangeFinwhale-max-1mb.gif'
 
 function App() {
     return (
         <div className="App">
-            <img src={toyLuigi}/>
-            <h1> OH YEAH! LUIGI TIME! </h1>
-            <img src={luigi}/>
-
+            <h1> W.I.P Come back Later! </h1>
+            <img src={luigiGif}/>
+            <p>The party will be here soon</p>
         </div>
     );
 }
