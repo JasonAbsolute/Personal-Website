@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jasonabsolute.github.io/Personal-Website/",
+  "homepage": "https://jason-urban.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "feather-icons": "latest",
