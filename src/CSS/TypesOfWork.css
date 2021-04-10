@@ -1,0 +1,41 @@
+div.background {
+
+    background: #9FFFC0;
+    width: auto;
+    min-height: 20px;
+}
+
+h1.background {
+    background-color: #9FFFC0;
+}
+
+h1.paddingservice{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+p.center {
+    alignment: center;
+    text-align: center;
+}
+
+img.service {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70px;
+}
+
+div.rowC {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}

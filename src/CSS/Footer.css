@@ -1,0 +1,30 @@
+.h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1.h1Footer{
+    font-size: 15px;
+    text-underline: #282c34;
+    text-align: center;
+}
+
+h1:hover.h1Footer {
+    font-size: 15px;
+    color: #0000EE;
+    text-underline: #0000EE;
+    text-decoration-line: underline;
+    text-align: center;
+}
+img.footer{
+    align-self: center;
+    width: 60px;
+    padding: 10px;
+}
+
+img:hover.footer {
+    width: 60px;
+    color: #9FFFC0;
+    background: #9FFFC0;
+    padding: 10px;
+}

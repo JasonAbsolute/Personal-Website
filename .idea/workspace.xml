@@ -12,6 +12,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -24,15 +26,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/treact" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\src\img" />
+      <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\src" />
       <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\src\imgs" />
       <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\build" />
       <recent name="C:\Users\Jaysonn\Desktop\Personal-Website\build\static" />
@@ -83,6 +91,9 @@
       <workItem from="1570141739044" duration="847000" />
       <workItem from="1570142750054" duration="1477000" />
       <workItem from="1570154720777" duration="7534000" />
+      <workItem from="1616393745249" duration="682000" />
+      <workItem from="1616395397031" duration="1189000" />
+      <workItem from="1617831589379" duration="37451000" />
     </task>
     <servers />
   </component>

@@ -1,17 +1,42 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
-import luigi from './imgs/luigi.png'
-import toyLuigi from './imgs/toyLuigi.png'
-import luigiGif from './imgs/TerrificOrangeFinwhale-max-1mb.gif'
+import {NavigationBar} from './Components/NavigationBar';
+import {NoMatch} from './Components/NoMatch';
+import Sidebar from './Components/Sidebar';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer"
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import ProjectsAndWork from './Components/ProjectsAndWork'
+import HomePage from './Components/HomePage'
 
-function App() {
-    return (
-        <div className="App">
-            <h1> W.I.P Come back Later! </h1>
-            <img src={luigiGif}/>
-            <p>The party will be here soon</p>
-        </div>
+export default class App extends React.Component {
+    ColoredLine = ({ color }) => (
+        <hr
+            style={{
+                color: color,
+                backgroundColor: color,
+                width: 400,
+                height: 2
+            }}
+        />
     );
+    // return <AnimationRevealPage disabled></AnimationRevealPage>;
+    render() {
+        return (
+            <React.Fragment>
+                <Router>
+                    <NavigationBar/>
+                    <Switch>
+                        <Route exact path="/" component={HomePage}/>
+                        <Route path="/resume.pdf"/>
+                        <Route path="/Projects&Work" component={ProjectsAndWork}/>
+                        <Route component={NoMatch}/>
+                    </Switch>
+                </Router>
+                <this.ColoredLine color="grey" />
+                <Footer/>
+            </React.Fragment>
+        );
+    }
 }
-//https://jasonabsolute.github.io/Personal-Website/.
-export default App;
