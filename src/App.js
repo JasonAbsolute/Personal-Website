@@ -36,6 +36,8 @@ export default class App extends React.Component {
                     </Switch>
                 </Router>
                 <this.ColoredLine color="grey" />
+                <ProjectsAndWork/>
+                <this.ColoredLine color="grey" />
                 <Footer/>
             </React.Fragment>
         );

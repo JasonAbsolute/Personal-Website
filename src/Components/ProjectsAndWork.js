@@ -57,8 +57,10 @@ class ProjectsAndWork extends React.Component {
                 </p>
                 <h3 className="workTitle">This Website</h3>
                 <p className="bio">
-                   This site was coded in React.js with lots of CSS use. Website is public on Github so people can use it and change to
-                    their liking. This site is also hosted on Github pages.
+                    This site was coded in React.js with lots of CSS use. Website is public on Github so people can use it and change to
+                    their liking. This site is also hosted on Github pages. Github pages is a challenge in itself for the
+                    reason making new pages is quite hard so everything on this site has to be on one page
+
                 </p>
 
             </div>
