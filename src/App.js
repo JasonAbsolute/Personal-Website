@@ -1,45 +1,36 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import './App.css';
-import {NavigationBar} from './Components/NavigationBar';
-import {NoMatch} from './Components/NoMatch';
-import Sidebar from './Components/Sidebar';
-import Header from "./Components/Header";
-import Footer from "./Components/Footer"
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import ProjectsAndWork from './Components/ProjectsAndWork'
-import HomePage from './Components/HomePage'
+import React, { useContext } from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-export default class App extends React.Component {
-    ColoredLine = ({ color }) => (
-        <hr
-            style={{
-                color: color,
-                backgroundColor: color,
-                width: 400,
-                height: 2
-            }}
-        />
-    );
+import { ThemeContext } from './contexts/ThemeContext';
+import { Main, BlogPage, ProjectPage } from './pages'
+import { BackToTop } from './components'
+import ScrollToTop from './utils/ScrollToTop'
 
-    // return <AnimationRevealPage disabled></AnimationRevealPage>;
-    render() {
-        return (
-            <React.Fragment>
-                <Router>
-                    <NavigationBar/>
-                    <Switch>
-                        <Route exact path="/" component={HomePage}/>
-                        <Route path="/resume.pdf"/>
-                        <Route path="/Projects&Work" component={ProjectsAndWork}/>
-                        <Route component={NoMatch}/>
-                    </Switch>
-                </Router>
-                <this.ColoredLine color="grey" />
-                <ProjectsAndWork/>
-                <this.ColoredLine color="grey" />
-                <Footer/>
-            </React.Fragment>
-        );
-    }
+import './App.css'
+
+function App() {
+
+  const { theme } = useContext(ThemeContext);
+
+  console.log("%cDEVELOPER PORTFOLIO", `color:${theme.primary}; font-size:50px`);
+  console.log("%chttps://github.com/hhhrrrttt222111/developer-portfolio", `color:${theme.tertiary}; font-size:20px`);
+  // console.log = console.warn = console.error = () => {};
+
+  return (
+    <div className="app">
+      <Router>
+        <ScrollToTop/>
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/blog" exact component={BlogPage} />
+          <Route path="/projects" exact component={ProjectPage} />
+
+          <Redirect to="/" />
+        </Switch>
+      </Router>
+      <BackToTop />
+    </div>
+  );
 }
+
+export default App;

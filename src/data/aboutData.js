@@ -1,0 +1,6 @@
+export const aboutData = {
+    title: "Who I am",
+    description1: "Hello! My name is Jason Urban. I'm an aspiring game developer based in the United States.",
+    description2: "In my role as a Software Developer at Working Title Simulations, I led the development and shipping of numerous DLC (Downloadable Content) packages for Microsoft Flight Simulator (MSFS). These DLCs included a range of features such as new aircraft models, airports, and scenery enhancements. One notable project was the development of a comprehensive flight planner, departure and waypoint systems, and connecting radio towers to simulate real-world scenarios. Through effective project management and collaboration with the design team, we were able to deliver high-quality DLCs that significantly enhanced the overall gameplay experience for MSFS users. Our DLCs received positive feedback from the community and contributed to an increase in user engagement and satisfaction. Additionally, I played a key role in maintaining and updating existing DLCs to ensure compatibility with new MSFS updates and improvements. This involved optimizing performance, fixing bugs, and implementing new features based on user feedback.",
+    image: 2
+}
