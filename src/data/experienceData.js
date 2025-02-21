@@ -28,4 +28,12 @@ export const experienceData = [
         endYear: ' September 2019'
     },
     
+    {
+        id: 4,
+        company: 'LankeyWare',
+        jobtitle: 'Game Designer',
+        startYear: 'June 2021 ',
+        endYear: ' Current'
+    },
+    
 ]

@@ -16,7 +16,6 @@ export const projectsData = [
         projectDesc: 'Recreating Super Mario Sunshine physics in the Godot game engine. Used blender to model and animate to then import assets into the game. Implemented a camera system that has two modes, free roaming and follow mode.',
         tags: ['GDScript', 'Godot' ,'C#', 'Blender'],
         code: 'https://github.com/JasonAbsolute/ProjectShine',
-        demo: 'https://github.com/JasonAbsolute/ProjectShine',
         image: ProjectShineLogo
     },
     {
@@ -24,7 +23,6 @@ export const projectsData = [
         projectName: 'Ziggy\'s Labyrinth',
         projectDesc: 'A level based Snake game. Play through over 150 levels with unique mechanics and power-ups. Do you have what it takes to escape the Labyrinth?',
         tags: ['Java', 'GameDev','Pixel Art'],
-        code: 'https://store.steampowered.com/app/2383520/Ziggys_Labyrinth/',
         demo: 'https://store.steampowered.com/app/2383520/Ziggys_Labyrinth/',
         image: Ziggy
     },  
